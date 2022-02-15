@@ -1,0 +1,7 @@
+{
+  "name": "Inspirational Quote Generator",
+  "description": "An app that generates random inspirational quotes using API",
+  "repository": "https://github.com/OmarAnwar19/Inspirational-Quote-Generator",
+  "logo":,
+  "keywords": ["nodejs", "htmlcss", "javascript"]
+}
