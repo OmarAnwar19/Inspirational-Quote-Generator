@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="items">
+        <h1>QuoGen</h1>
+        <h3 id="quote"><%= quote %></h3>
+        <h3 id="author"><%= author %></h3>
+        <form action="/gen">
+          <button id="gen-button" type="submit">Generate</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
